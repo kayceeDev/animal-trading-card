@@ -1,0 +1,56 @@
+/* add your CSS here */
+body{
+  font-family: sans-serif;
+}
+
+  .container {
+  border:1px solid grey;
+  width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 3px 3px 3px #aaa;
+  position: relative;
+  top: 0px;
+  bottom: 100px;
+  left: 100px;
+  border-radius: 10px 10px;
+}
+
+.box{
+  width: 300px;
+  border: 1px solid grey;
+  margin: 5px 10px;
+  padding: 0px;
+  border-radius: 10px 10px;
+}
+div#image{
+  border-radius: 5px 5px;
+}
+#image img{
+  display: flex;
+  width: 100%;
+  padding: 0px;
+}
+#header{
+  word-wrap: break-word;
+  padding-left: 5px;
+  margin-top: 0px;
+  border: none;
+}
+#section{
+  width: 300px;
+  padding: 5px;
+  text-align: left;
+  line-height: 1.3em;
+}
+
+div#section ul{
+list-style-type: none;
+padding: 3px;
+}
+
+span {
+  font-weight: bold;
+}
+em{font-style: italic;
+}
